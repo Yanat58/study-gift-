@@ -174,5 +174,33 @@ color:  #000;
   color: #f7941e;
 }
 
-/* poets */
+/* posts */
 
+.container-posts {
+  display: block;
+  padding: 96px 135px 137px;
+  text-align: center;
+}
+.posts-title {
+  margin-bottom: 23px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  line-height: 1;
+  color: #000;
+}
+.posts-subtitle {
+  margin-bottom: 64px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.36;
+  color: #000;
+}
+.posts-list {
+  display: flex;
+  gap: 30px;
+  flex-basis: calc(100%/4);
+}
+.posts-wrap {
+  padding: 24px;
+  text-align: left;
+}
