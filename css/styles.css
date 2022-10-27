@@ -30,7 +30,7 @@ button {
 
 .body {
   font-family: 'Roboto', sans-serif;
-  color: #000
+  color: #000;
 }
 .container {
   width: 1440px;
@@ -176,13 +176,15 @@ button {
   padding: 96px 135px 137px;
   text-align: center;
 }
-.posts-title {
+.posts-title,
+.articale-heading {
   margin-bottom: 23px;
   font-size: 32px;
   line-height: 1;
   color: #000;
 }
-.posts-subtitle {
+.posts-text,
+.articale-text {
   margin-bottom: 64px;
   font-size: 18px;
   line-height: 1.36;
@@ -201,7 +203,12 @@ button {
   padding-bottom: 64px;
   font-size: 20px;
   line-height: 1;
-  ;
+  color: #000;
+}
+.wrap-text {
+  font-size: 14px;
+  line-height: 1.16;
+  color: #000;
 }
 .posts-item:hover,
 .posts-item:focus {
@@ -233,12 +240,91 @@ button {
 .contakt-btn {
   margin-right: 16px;
   padding: 16px 25px;
-  background-color: #231F20;
+  background-color: #231f20;
   color: #fff;
   border: 1px solid #000;
-} 
+}
 .btn.contakt-btn-second {
   padding: 12px 17px;
   font-size: 18px;
   line-height: 1.35;
+}
+
+/* section blog */
+
+.container-blog {
+  padding: 88px 135px 80px;
+}
+.articale-heading {
+  text-align: center;
+}
+
+.articale-text {
+  margin-bottom: 71px;
+  text-align: center;
+}
+
+.blog-feature {
+  margin-bottom: 40px;
+  display: flex;
+  width: 1170px;
+}
+
+.blog-feature-wrap {
+  padding: 63px 200px 49px 78px;
+  width: 100%;
+  background-color: #231f20;
+}
+
+.blog-feature-wrap-text {
+  padding-bottom: 27px;
+  font-size: 14px;
+  line-height: 1.41;
+  color: #fff;
+}
+
+.blog-feature-wrap-title {
+  padding-bottom: 60px;
+  font-size: 48px;
+  line-height: 1;
+  color: #fff;
+}
+
+.blog-wrap-link {
+  font-size: 18px;
+  line-height: 1.41;
+  color: #fff;
+}
+
+.blog-card-list {
+  display: flex;
+  gap: 30px;
+}
+.blog-card-item {
+}
+.blog-card-title {
+  padding-bottom: 16px;
+  font-style: 700px;
+  font-size: 24px;
+  line-height: 1.41;
+  color: #000;
+}
+.blog-card-text {
+  padding-bottom: 16px;
+  font-size: 18px;
+  line-height: 1.41;
+  color: #000;
+}
+.blog-card-more {
+  font-size: 14px;
+  line-height: 1.41;
+  color: #000;
+}
+.blog-card-link {
+  padding: 49px 50px;
+  display: block;
+}
+.blog-card-link:hover,
+.blog-card-link:focus {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }

@@ -1,3 +1,4 @@
 {
-  "ecsstractor_tsx_port.bem_nesting": true
+  "ecsstractor_tsx_port.bem_nesting": true,
+  "editor.unicodeHighlight.includeStrings": true
 }
