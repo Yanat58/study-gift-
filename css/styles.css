@@ -328,3 +328,51 @@ button {
 .blog-card-link:focus {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
+
+/* footer */
+
+.footer {
+  background-color: #FAFAFA;
+}
+
+.footer-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 106px 220px 35px;
+}
+
+.pagination-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 81px;
+
+}
+.pagination-item {
+  /* margin-left:  406px;
+  margin-right: 141px; */
+}
+
+.pagination-link {
+  display: inline-block;
+  font-style: 700px;
+  font-size: 14px;
+  line-height: 1.41;
+  color: #000;
+}
+
+.pagination.logo {
+  display: inline-block;
+  font-family: ;
+Font family: Homemade Apple
+Font style: Regular
+Font size: 18px
+Line height: 39px
+Line height: 100%
+Align: Center
+Vertical align: Center
+Fill: Solid
+#F7941E
+
+}
